@@ -1,0 +1,19 @@
+{
+  "name": "dht",
+  "version": "1.0.0",
+  "description": "distributed hash table using node",
+  "main": "dht.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "distributed",
+    "hash",
+    "table"
+  ],
+  "author": "Aos",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.4"
+  }
+}
