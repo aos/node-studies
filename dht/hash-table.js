@@ -28,6 +28,8 @@ function HashTable() {
       table[position] = new LinkedList();
     }
     table[position].append(new ValuePair(key, value));
+
+    return position;
   };
 
   this.remove = function(key) {

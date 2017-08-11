@@ -13,23 +13,23 @@ app.get('/search', (req, res) => {
   let value = table.get(key);
 
   if (value === undefined) {
-    console.log('Could not find it!');
-    return res.send('Sorry, couldn\'t find it!');
+    console.log('Couldn\'t find it!');
+    return res.send('Couldn\'t find it!');
   }
 
   console.log(`Value = ${value}`);
 
-  return res.send(value);
+  return res.send(value + '\n');
 });
 
 app.get('/post', (req, res) => {
   let key = req.query.key;
   let value = req.query.value;
   
-  table.put(key, value);
+  const position = table.put(key, value);
 
   console.log('Added!');
-  res.send('Added!');
+  res.send(`Added @ ${position} \n`);
 });
 
 app.set('port', process.env.PORT || 3000);
