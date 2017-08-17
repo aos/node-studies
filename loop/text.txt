@@ -1,0 +1,27 @@
+This is some text to test out node's readSync example:
+
+How do I browse through all the available buffers?
+
+You can browse through the buffers in the buffer list in several ways:
+
+To jump to the first buffer in the buffer list, use the ":bfirst" or ":brewind" command.
+To jump to the first buffer in the buffer list in a new window, use the ":sbfirst" or ":sbrewind" command.
+To edit the next buffer in the buffer list, use the ":bnext" command., or the abbreviated ":bn"
+To open the next buffer in the buffer list in a new window, use the ":sbnext" command.
+To edit the previous buffer in the buffer list, use the ":bprevious" or ":bNext" command. or the abbreviated ":bp"
+To open the previous buffer in the buffer list in a new window, use the ":sbprevious" or ":sbNext" command.
+To open the last buffer in the buffer list, use the ":blast" command.
+To open the last buffer in the buffer list in a new window, use the ":sblast" command.
+
+:help :bfirst
+:help :brewind
+:help :sbfirst
+:help :sbrewind
+:help :bnext
+:help :sbnext
+:help :bprevious
+:help :bNext
+:help :sbprevious
+:help :sbNext
+:help :blast
+:help :sblast
